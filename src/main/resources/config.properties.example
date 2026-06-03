@@ -1,0 +1,10 @@
+# Database Configuration — Copy to config.properties and fill in your values
+db.url=jdbc:mysql://localhost:3306/ems_db?useSSL=false&serverTimezone=UTC
+db.username=root
+db.password=your_password_here
+db.pool.size=10
+
+# App Settings
+app.name=Employee Management System
+app.version=1.0.0
+app.session.timeout=30
